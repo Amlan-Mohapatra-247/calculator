@@ -1,0 +1,47 @@
+.center{
+    text-align: center;
+}
+
+.rows button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 60px
+}
+
+.rows,rows1{
+    margin:10px 0;
+    justify-content: space-around;
+}
+
+.rows input{
+    margin: 0;
+    padding: 10px 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.row1 button{
+    padding: 26px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.605);
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: rgb(0, 104, 40);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
